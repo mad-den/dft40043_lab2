@@ -1,0 +1,66 @@
+body {
+    background-color: aquamarine;
+    color: seagreen ;
+}
+
+form {
+    border: 3px solid darkgreen;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid darkgreen;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: whitesmoke;
+    color: darkgreen);
+    padding: 9px;
+    margin: 6px;
+    border-radius: inherit;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;
+}
+.registerbtn:hover {
+    opacity: 1;
+    }
+
+.createnewbtn {
+    align-content: center;
+    width: 18%;
+    padding: 13px;
+    background-color: darkgreen;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.container {
+    padding: 20px;
+}
+
+@media screen and (max-width: 100px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .createnewbtn {
+        width: 50%
+    }
+}

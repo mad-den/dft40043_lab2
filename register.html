@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Register New Account</h1>
+        <hr>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" required placeholder="Enter name" name="name">
+        <br>
+
+        <label for="age"><b>Age</b><br></label>
+        <input type="text" placeholder="Enter age" name="gender" required>
+        <br>
+
+        <label for="gender"><b>Gender</b><br></label>
+        <input type="radio" name="gender" required> Male
+        <input type="radio" name="gender" required> Female
+        <br><br>
+
+        <label for="states"><b>Choose Your state</b></label><br><br>
+        <select name="state" id="states">
+            <option value="perlis">Perlis</option>
+            <option value="kedah">Kedah</option>
+            <option value="penang">Penang</option>
+            <option value="perak">Perak</option>
+            <option value="selangor">Selangor</option>
+            <option value="kuala lumpur">Kuala Lumpur</option>
+            <option value="negeri sembilan">Negeri Sembilan</option>
+            <option value="melaka">Melaka</option>
+            <option value="kelantan">Kelantan</option>
+            <option value="terengganu">Terengganu</option>
+            <option value="pahang">Pahang</option>
+            <option value="johor">Johor</option>
+            <option value="sabah">Sabah</option>
+            <option value="sarawak">Sarawak</option>
+        </select>
+        <br><br>
+
+        <label for="address"><b>Address</b><br></label>
+        <textarea type="text" name="alamat" id="alamat" required placeholder="Enter address"
+            autofocus autocomplete="on"></textarea><br>
+
+        <label for="city"><b>City</b><br></label>
+        <input type="text" placeholder="Enter city" name="city" required>
+        <br>
+
+        <label for="poss"><b>Postcode</b><br></label>
+        <input type="text" placeholder="Enter postcode" name="poss" required>
+        <br>
+
+        <label for="phone no"><b>Phone No</b><br></label>
+        <input type="text" type="number" placeholder="Enter phone no" name="phone no" required>
+        <br>
+
+        <label for="email"><b>E-mail</b></label>
+        <input type="text" placeholder="Enter e-mail" name="email" required>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter username" name="username" required>
+        <br>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter password" name="psw" id="psw" required>
+        <label for="psw-confirm"><b>Confirm Password</b></label>
+
+        <input type="password" placeholder="Confirm Password" name="psw-confrim" required>
+        <hr>
+
+        <p>By creating an account you agree to our <a href="#">Terms & Condition</a>.</p>
+
+        <button type="submit" class="registerbtn">Register</button>
+        &nbsp;&nbsp;&nbsp;
+        <button type="reset" class="resetbtn">Reset</button>
+    </div>
+    </form>
+
+</body>
+
+</html>
